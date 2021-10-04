@@ -1,0 +1,25 @@
+.carousel {
+    width: 100% !important;
+    height: 80% !important;
+    margin: auto;
+    margin-bottom: 100px;
+    border: 10px solid $blue;
+
+    img {
+        width: 100%;
+    }
+
+}
+
+.carousel.slide,
+.carousel-inner {
+    width: 100% !important;
+    height: 80% !important;
+}
+
+.carousel-caption {
+    display: flex;
+    left: 8px !important;
+    bottom: -14px !important;
+    font-size: 10px;
+}

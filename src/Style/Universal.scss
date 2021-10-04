@@ -1,0 +1,66 @@
+$white: #FAFAFA;
+$orange: #F47E14;
+$accent: #93295B;
+$blue: #0B0F27;
+$darkblue:#070a19;
+
+@font-face {
+    font-family: "GilroyMedium";
+    src: url("../assets/fonts/GilroyMedium.woff") format("woff"),
+        url("../assets/fonts/GilroyMedium2.woff2") format("woff2"),
+}
+
+@font-face {
+    font-family: "GilroyBold";
+    src: url("../assets/fonts/GilroyBold.woff") format("woff"),
+        url("../assets/fonts/GilroyBold2.woff2") format("woff2"),
+}
+
+$link-color:$white;
+$link-hover-color:$orange;
+$font-color:$white;
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px grey;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #0B0F27;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.app-wrapper {
+    font-family: 'GilroyMedium',
+        sans-serif !important;
+    color: rgba(250, 250, 250, 1) !important;
+    background-image: linear-gradient(to bottom, #0b0f27, #47214e, #93295b, #d44349, #f47e14);
+    padding-top: 30px;
+
+    h1 {
+        font-family: 'GilroyBold',
+            sans-serif !important;
+    }
+
+    h3 {
+        font-size: calc(1.3rem + .6vw) !important;
+    }
+
+
+}
+
+@import './Mixins.scss';
+@import './Navigation.scss';
+@import './HomePage.scss';
+@import './Partners.scss';
+@import './Footer.scss';
+@import './WhitePaper.scss';
+@import './HowToBuy.scss';
+
+@import './Media.scss';

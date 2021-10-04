@@ -1,0 +1,144 @@
+.how-to-buy-wrapper {
+    padding-bottom: 150px;
+}
+
+.learning-phrase {
+    padding-bottom: 50px;
+    text-align: center;
+    color: $white;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h1 {
+        font-family: 'GilroyBold',
+            sans-serif;
+        color: $orange;
+    }
+}
+
+.how-to-video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass-video-wrapper {
+    @include glass;
+    padding: 20px;
+    margin-bottom: 50px;
+    width: 650px !important;
+
+    iframe {
+        border-radius: 30px;
+        padding: 0px;
+        margin: 0px;
+        width: 650px;
+    }
+}
+
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+
+.wallet-button {
+    color: $white;
+    font-size: 20px;
+    background: #F47F15;
+    background-image: linear-gradient(to left top, #f47e14, #f6900a, #f7a303, #f6b406, #f4c614);
+    border-radius: 10px;
+    border-radius: 20px;
+    align-items: center;
+    border: none !important;
+    -webkit-box-shadow: 11px 18px 30px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 11px 18px 30px 10px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    width: 80%;
+}
+
+.mb-3 {
+    justify-content: center;
+}
+
+.tab-pane.active {
+    color: $white !important;
+    display: grid !important;
+    grid-template-columns: 1fr 3fr;
+    gap: 40px;
+}
+
+.truststep {
+    width: 100%;
+}
+
+
+.metastep {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.instructions.meta {
+    span {
+        font-size: 21px
+    }
+}
+
+.metastep.yummy {
+    border-radius: 200px;
+}
+
+.trust-wallet-steps,
+.meta-wallet-steps {
+    .nav-item>.nav-link {
+        @include glass;
+        color: $white;
+        background: rgba(0, 0, 0, 0.28) !important;
+        border-radius: 5px !important;
+        border-bottom: 1px solid white !important;
+        margin-left: 10px;
+        width: 100px;
+
+        button {
+            &:hover {
+                color: $white !important;
+            }
+        }
+    }
+
+    .nav-item>.nav-link.active {
+        @include glass;
+        color: $orange !important;
+        border-radius: 5px !important;
+        border: none !important;
+        border-bottom: solid 1px $orange !important;
+    }
+}
+
+
+
+.instructions {
+    @include glass;
+    background: rgba(0, 0, 0, 0.28);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+
+    a {
+        color: $orange;
+    }
+
+    h3 {
+        color: $white;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}

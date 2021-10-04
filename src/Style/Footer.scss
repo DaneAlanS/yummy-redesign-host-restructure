@@ -1,0 +1,38 @@
+.full-socials {
+    display: grid;
+    grid-template-columns: 1fr 0.2fr 1fr;
+    grid-template-rows: auto 1fr;
+    place-items: center;
+    background-color: $darkblue;
+    border-top: $orange solid 1px;
+    color: $white;
+    text-align: center;
+}
+
+i {
+    color: $white;
+    font-size: 2em;
+    padding: 10px;
+}
+
+
+.legal {
+    padding-top: 20px;
+    font-size: 9px;
+    color: $white;
+    text-align: center;
+}
+
+.copyright {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.disclaimer-wrapper {
+    padding: 0px 20px 0px 20px;
+    grid-area: 2 / 1 / 2 / 4;
+}
+
+.socials-footer{
+    grid-column-start: 3;
+}
