@@ -17,7 +17,6 @@ import MDAppeal from '../assets/partners/mdappeal.jpg';
 import SpaceGang from '../assets/partners/spacegang.png';
 import Soku from '../assets/partners/soku.png';
 import DreamField from '../assets/partners/dreamfield_logo.png';
-import Minty from '../assets/partners/minty.svg'
 import Slam from '../assets/partners/slam.png'
 import PCS from '../assets/partners/pancakeswap.png';
 
@@ -33,9 +32,6 @@ function Partners() {
             </a>
             <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://www.sokuswap.org/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
               <img alt="Soku Swap"src={Soku}></img>
-            </a>
-            <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://mintyswap.com/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
-              <img alt="Minty Swap"src={Minty}></img>
             </a>
             <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://pancakeswap.finance/swap" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
               <img alt="Pancake Swap"src={PCS}></img>

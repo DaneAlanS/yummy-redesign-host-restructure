@@ -31,7 +31,9 @@
     }
 
     .buy-button-wrapper {
-        color: $blue;
+        svg {
+            fill: $white;
+        }
 
         h1 {
             z-index: 1;
