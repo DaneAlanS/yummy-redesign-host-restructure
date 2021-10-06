@@ -28,9 +28,6 @@ function HomePage() {
         </div>
         <div className="landing-buttons-wrapper">
           <div className="buy-button-wrapper">
-            <svg viewBox="0 0 100 18">
-              <text x="0" y="15">Buy</text>
-            </svg>
             <div className="landing-button-grid">          
               <Button href="https://www.bitmart.com/trade/en?symbol=YUMMY_USDT" target="_blank" rel="noreferrer noopener">Buy On Bitmart</Button>
               <Button href="https://pancakeswap.finance/swap?outputCurrency=0xb003c68917bab76812797d1b8056822f48e2e4fe" target="_blank" rel="noreferrer noopener" >Buy On Pancakeswap</Button>
@@ -38,10 +35,7 @@ function HomePage() {
               <Button className="price-graph"href="https://poocoin.app/tokens/0xb003c68917bab76812797d1b8056822f48e2e4fe"  target="_blank" rel="noreferrer noopener">View Price Graph</Button>
             </div>
           </div>
-          <div className="buy-button-wrapper">
-            <svg viewBox="0 0 100 18">
-              <text x="0" y="15">Research</text>
-            </svg>
+          <div className="buy-button-wrapper">            
             <div className="landing-button-grid">          
               <Button href="/howtobuy">How To Buy Yummy</Button>
               <Button href="https://apeboard.finance/dashboard/0x50573352064DfC51abee7Bccb6113642abe80908?chain=BSC"  target="_blank" rel="noreferrer noopener">Check Growth Fund Balance</Button>
