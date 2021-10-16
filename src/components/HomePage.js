@@ -24,7 +24,7 @@ function HomePage() {
         <h1 className="fluid-type">Together We're <span style={{color:"#F47E14"}}>Changing Lives</span> Across The Globe.</h1>
         <h3>Yummy Crypto is a project launched on May 1st with a clear vision to deliver value to holders via <span style={{color:"#F47E14"}}>Growth Fund</span> while providing contributions to help solve some of the world's most pressing issues.</h3>
         <div className="video-wrapper">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/9_VbPKRnPUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/suY1heK1MA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div className="landing-buttons-wrapper">
           <div className="buy-button-wrapper">
