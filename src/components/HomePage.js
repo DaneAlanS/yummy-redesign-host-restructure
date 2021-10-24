@@ -1,7 +1,6 @@
 import React, {useEffect} from "react";
 import {Button, Image} from 'react-bootstrap';
 
-import Footer from './Footer.js';
 import Partners from './Partners.js';
 
 import TransparentLogo from '../assets/YummyLogoTransparent.svg';
@@ -25,6 +24,7 @@ function HomePage() {
         <h3>Yummy Crypto is a project launched on May 1st with a clear vision to deliver value to holders via <span style={{color:"#F47E14"}}>Growth Fund</span> while providing contributions to help solve some of the world's most pressing issues.</h3>
         <div className="video-wrapper">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/suY1heK1MA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div className="contract-address">Contract Address: <span>0xB003C68917BaB76812797d1b8056822f48E2e4fe</span></div>
         </div>
         <div className="landing-buttons-wrapper">
           <div className="buy-button-wrapper">

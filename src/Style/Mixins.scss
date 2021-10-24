@@ -1,9 +1,9 @@
 @mixin glass {
-    background: rgba(255, 255, 255, 0.28);
+    background: rgba(255, 255, 255, 0.28) !important;
     box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(4.5px);
     -webkit-backdrop-filter: blur(4.5px);
-    border-radius: 20px;
+    border-radius: 20px !important;
 }
 
 @mixin dark-glass {

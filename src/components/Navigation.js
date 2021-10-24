@@ -1,13 +1,8 @@
 import React, { useState }  from "react";
-import {
-  BrowserRouter as Router,
-  Link
-} from "react-router-dom";
 
 import {Navbar, Container, Nav, NavDropdown, Image} from 'react-bootstrap';
 import Hamburger from 'hamburger-react';
 
-import WhitePaper from "./WhitePaper";
 
 
 import Logo from '../assets/yummy-full-logo.svg';
