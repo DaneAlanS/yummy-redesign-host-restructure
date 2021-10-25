@@ -7,11 +7,12 @@
 }
 
 @mixin dark-glass {
-    background: rgba(0, 0, 0, 0.5);
-    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(4.5px);
-    -webkit-backdrop-filter: blur(4.5px);
-    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2) !important;
+    backdrop-filter: blur(4.5px) !important;
+    -webkit-backdrop-filter: blur(4.5px) !important;
+    border-radius: 20px !important;
+    color: $white;
 }
 
 @mixin remove-glass {

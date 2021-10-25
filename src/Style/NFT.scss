@@ -7,6 +7,53 @@
     padding-bottom: 200px;
 }
 
+.connect-wallet {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    z-index: 5;
+    border-radius: 20px !important;
+}
+
+.modal-dialog {
+    justify-content: center !important;
+}
+
+.modal-content {
+    width: 50% !important;
+}
+
+.wallet-logo-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+}
+
+.logo-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.connect-wallet-logo {
+    width: 100%;
+    height: 100%;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.modal-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .nft-header-container {
     width: 100%;
     display: flex;
@@ -17,6 +64,13 @@
         width: 20%;
         border-radius: 200px;
     }
+}
+
+.NFT-description {
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    font-size: 150%;
 }
 
 .nft-reasons-container {
@@ -33,7 +87,7 @@
     text-align: center;
 
 
-    $rotations: 10deg, 20deg, -10deg, -20deg;
+    $rotations: 5deg, 10deg, 15deg, -5deg, -10deg, -15deg;
 
     @each $rotation in $rotations {
         .nft-reason-#{$rotation} {
@@ -69,4 +123,28 @@
     .card-body {
         background: none;
     }
+}
+
+.FAQ-container {
+    width: 80%;
+    color: $blue;
+}
+
+
+.accordion-button {
+    @include glass;
+
+    &:focus {
+        box-shadow: none !important;
+        border: 1px solid $white !important;
+    }
+
+}
+
+.accordion-button:not(.collapsed) {
+    color: $accent !important;
+}
+
+.accordion-item {
+    @include glass;
 }
