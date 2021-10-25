@@ -2,8 +2,9 @@
     display: grid;
     place-items: center;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr;
+    grid-template-rows: 0.5fr 0.2fr 1fr;
     gap: 100px;
+    row-gap: 10px;
     padding-bottom: 200px;
 }
 
@@ -59,11 +60,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    img {
-        width: 20%;
-        border-radius: 200px;
-    }
+    padding-bottom: 80px;
 }
 
 .NFT-description {
@@ -106,23 +103,16 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     padding: 0px 100px 0px 100px;
     column-gap: 10%;
-    row-gap: 50px;
+    row-gap: 40px;
     place-items: center;
 }
 
-.card {
-    @include glass;
-    border: none;
-
-    .card-img-top {
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-    }
-
-
-    .card-body {
-        background: none;
-    }
+.yummy-dog {
+    width: 100%;
+    border-radius: 50px;
+    border: solid 5px $orange;
+    -webkit-box-shadow: 5px 5px 0px 5px $blue;
+    box-shadow: 3px 3px 0px 3px $blue;
 }
 
 .FAQ-container {
@@ -130,9 +120,16 @@
     color: $blue;
 }
 
+.accordion {
+    @include dark-glass;
+}
+
 
 .accordion-button {
-    @include glass;
+    // @include glass;
+    background: none !important;
+    border-radius: 20px !important;
+    color: $white !important;
 
     &:focus {
         box-shadow: none !important;
@@ -142,9 +139,15 @@
 }
 
 .accordion-button:not(.collapsed) {
-    color: $accent !important;
+    color: $white !important;
 }
 
 .accordion-item {
-    @include glass;
+    // @include glass;
+    background: none !important;
+    border-bottom: 1px solid black !important;
+}
+
+.accordion-body {
+    color: $orange;
 }

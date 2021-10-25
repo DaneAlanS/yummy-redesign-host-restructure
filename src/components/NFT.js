@@ -1,6 +1,7 @@
 import React from 'react';
 
-import NFTCard from './NFTCard.js';
+import {Image} from 'react-bootstrap';
+
 import AccordionFN from './AccordionFN.js';
 import ModalFN from './ModalFN.js';
 
@@ -26,11 +27,13 @@ function NFT() {
           <h2 className="nft-reason--5deg">Growth Fund Yield for life</h2>
         </div>
       </div>
-      <div className="nft-container">
-        <NFTCard title="Party Dog" text="Let's PARTY!" image={PartyDog}></NFTCard>
-        <NFTCard title="Nice Shades, Dog!" text="Life is good with shades." image={CoolDog}></NFTCard>
-        <NFTCard title="Captain Jack Dog" text="But you have heard of me?" image={PirateDog}></NFTCard>
-        <NFTCard title="Magic Boxer" text="He knows a spell or two to KO." image={WizardDog}></NFTCard>
+
+      <h1>Yummy Dog Gallery</h1>
+      <div className="nft-container">        
+        <Image className="yummy-dog" src={PartyDog}></Image>
+        <Image className="yummy-dog" src={CoolDog}></Image>
+        <Image className="yummy-dog" src={PirateDog}></Image>
+        <Image className="yummy-dog" src={WizardDog}></Image>
       </div>
 
       <div className="FAQ-container">
