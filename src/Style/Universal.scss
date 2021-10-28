@@ -52,8 +52,10 @@ body::-webkit-scrollbar-thumb {
     h3 {
         font-size: calc(1.3rem + .6vw) !important;
     }
+}
 
-
+body {
+    width: 100% !important;
 }
 
 @import './Mixins.scss';
