@@ -69,7 +69,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 80px;
     text-align: center;
 }
 
@@ -78,31 +77,18 @@
     text-align: center;
     width: 80%;
     font-size: 150%;
+    padding-bottom: 80px !important;
 }
 
 .nft-reasons-container {
-    width: 100%;
-    margin-top: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-template-rows: auto;
-    gap: 50px;
-    place-items: center;
-    justify-content: center;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
+}
 
-    $rotations: 5deg, 10deg, 15deg, -5deg, -10deg, -15deg;
-
-    @each $rotation in $rotations {
-        .nft-reason-#{$rotation} {
-            transform: rotate($rotation)
-        }
-    }
-
-
+.nft-reason {
+    padding: 10px;
 }
 
 
@@ -110,7 +96,7 @@
 .nft-container {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     row-gap: 40px;
     place-items: center;
 }

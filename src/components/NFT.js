@@ -9,6 +9,10 @@ import CoolDog from '../assets/nft-images/cool.png';
 import PartyDog from '../assets/nft-images/party.png';
 import PirateDog from '../assets/nft-images/pirate.png';
 import WizardDog from '../assets/nft-images/wizard.png';
+import BandanaDog from '../assets/nft-images/bandana.png';
+import BusinessDog from '../assets/nft-images/business.png';
+import ContentDog from '../assets/nft-images/content.png';
+import HippoDog from '../assets/nft-images/hippo.png';
 
 
 function NFT() {
@@ -19,13 +23,13 @@ function NFT() {
       <div className="nft-header-container">
         <h1>WHY YUMMY NFT?</h1>
         <div className="NFT-description"><p>Yummy Dogs are 10,000 cute NFTs with created from hundreds of possible traits. Each NFT is proveably unique, with traits randomly assigned at mint. Each Yummy Dog grants its owner access to the Yummy ecosystem, including educational content, additional staking rewards, and more!</p></div>        
-        <div className="nft-reasons-container">
-          <h2 className="nft-reason--15deg">10,000 NFTs Limited Minting</h2>
-          <h2 className="nft-reason-5deg">Discounts on Yummy Academy </h2>
-          <h2 className="nft-reason-10deg">Yummy Staking Boosts</h2>
-          <h2 className="nft-reason--10deg">Tax Free Yummy</h2>
-          <h2 className="nft-reason--5deg">Growth Fund Yield for life</h2>
-        </div>
+        <ul className="nft-reasons-container">
+          <li><h2 className="nft-reason">10,000 NFTs Limited Minting</h2></li>
+          <li><h2 className="nft-reason">Discounts on Yummy Academy </h2></li>
+          <li><h2 className="nft-reason">Yummy Staking Boosts</h2></li>
+          <li><h2 className="nft-reason">Tax Free Yummy</h2></li>
+          <li><h2 className="nft-reason">Growth Fund Yield for life</h2></li>
+        </ul>
       </div>
 
       <h1>Yummy Dog Gallery</h1>
@@ -34,6 +38,10 @@ function NFT() {
         <Image className="yummy-dog" src={CoolDog}></Image>
         <Image className="yummy-dog" src={PirateDog}></Image>
         <Image className="yummy-dog" src={WizardDog}></Image>
+        <Image className="yummy-dog" src={BandanaDog}></Image>
+        <Image className="yummy-dog" src={BusinessDog}></Image>
+        <Image className="yummy-dog" src={HippoDog}></Image>
+        <Image className="yummy-dog" src={ContentDog}></Image>
       </div>
 
       <div className="FAQ-container">

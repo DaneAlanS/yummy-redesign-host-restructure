@@ -6,7 +6,6 @@ import React from "react";
 import BKFCLogo from '../assets/partners/BareKnuckle.png';
 import CoinGecko from '../assets/partners/CoinGecko.png';
 import BitmartLogo from '../assets/partners/bitmart.png';
-import CoinBase from '../assets/partners/coinbase.png';
 import CoinHunt from '../assets/partners/coinhunt.png';
 import CoinMarket from '../assets/partners/coinmarketcap.png';
 import BSCscan from '../assets/partners/bscscan.png';
@@ -59,10 +58,7 @@ function Partners() {
             </a>            
             <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://spacegang.club/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
               <img alt="SpaceGang"src={SpaceGang}></img>
-            </a>
-            <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://www.coinbase.com/" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-              <img alt="Coinbase Exchange"src={CoinBase}></img>
-            </a>
+            </a>            
             <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://coinhunt.cc/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
               <img alt="CoinHunt"src={CoinHunt}></img>
             </a>
