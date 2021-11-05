@@ -91,6 +91,21 @@
     padding: 10px;
 }
 
+.mint-btn-link {
+    padding: 30px !important;
+    margin: 60px 0px 60px 0px;
+    font-size: 2em !important;
+    color: $blue !important;
+    text-emphasis: none;
+    text-align: center;
+    width: 50%;
+    max-width: 400px;
+    border: rgba(255, 255, 255, 0.28) 1px solid;
+    min-height: 38px;
+    border-radius: 30px;
+    background-image: linear-gradient(to left top, #f47e14, #f6900a, #f7a303, #f6b406, #f4c614);
+}
+
 
 
 .nft-container {
@@ -98,11 +113,12 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     row-gap: 40px;
-    place-items: center;
+    place-items: center !important;
+    justify-content: center;
 }
 
 .yummy-dog {
-    width: 80%;
+    width: 60%;
     border-radius: 50px;
     border: solid 5px $orange;
     -webkit-box-shadow: 5px 5px 0px 5px $blue;

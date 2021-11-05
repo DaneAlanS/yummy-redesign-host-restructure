@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Image} from 'react-bootstrap';
+import {Image, Button} from 'react-bootstrap';
 
 import AccordionFN from './AccordionFN.js';
 import ModalFN from './ModalFN.js';
@@ -21,7 +21,7 @@ function NFT() {
     <div className="nft-page-container">
       <div className="nft-header-container">
         <h1>WHY YUMMY NFT?</h1>
-        <div className="NFT-description"><p>Yummy Dogs are 10,000 cute NFTs with created from hundreds of possible traits. Each NFT is proveably unique, with traits randomly assigned at mint. Each Yummy Dog grants its owner access to the Yummy ecosystem, including educational content, additional staking rewards, and more!</p></div>        
+        <div className="NFT-description"><p>Yummy Dogs are 10,000 cute NFTs created from hundreds of possible traits. Each NFT is proveably unique, with traits randomly assigned at mint. Each Yummy Dog grants its owner access to the Yummy ecosystem, including educational content, additional staking rewards, and more!</p></div>        
         <ul className="nft-reasons-container">
           <li><h2 className="nft-reason">10,000 NFTs Limited Minting</h2></li>
           <li><h2 className="nft-reason">Discounts on Yummy Academy </h2></li>
@@ -29,6 +29,7 @@ function NFT() {
           <li><h2 className="nft-reason">Tax Free Yummy</h2></li>
           <li><h2 className="nft-reason">Growth Fund Yield for life</h2></li>
         </ul>
+        <Button className="mint-btn-link" href="https://yummy-crypto-nft.com/" target="_blank" rel="noreferrer noopener">Mint Here!</Button>
       </div>
 
       <h1>Yummy Dog Gallery</h1>
