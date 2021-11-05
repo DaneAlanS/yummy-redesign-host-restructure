@@ -19,7 +19,6 @@ function NFT() {
 
   return (
     <div className="nft-page-container">
-      <ModalFN centered></ModalFN>
       <div className="nft-header-container">
         <h1>WHY YUMMY NFT?</h1>
         <div className="NFT-description"><p>Yummy Dogs are 10,000 cute NFTs with created from hundreds of possible traits. Each NFT is proveably unique, with traits randomly assigned at mint. Each Yummy Dog grants its owner access to the Yummy ecosystem, including educational content, additional staking rewards, and more!</p></div>        

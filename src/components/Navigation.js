@@ -37,7 +37,8 @@ function Navigation() {
                 </div>
                 </NavDropdown>
 
-                <Nav.Link href="https://yummycryptomerch.com/" target="_blank" rel="noreferrer noopener">Merchandise</Nav.Link>
+                <Nav.Link href="/NFT" target="_blank" rel="noreferrer noopener">Yummy NFTs</Nav.Link>
+                <Nav.Link href="https://yummycryptomerch.com/" target="_blank" rel="noreferrer noopener">Merchandise</Nav.Link>              
 
                 <div className='nav-socials'>
                   <Nav.Link href="https://twitter.com/YummyCrypto" target="_blank" rel="noreferrer noopener"><i className="fab fa-twitter"></i></Nav.Link>
