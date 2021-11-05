@@ -27,7 +27,7 @@ function AccordionFN() {
   <Accordion.Item eventKey="2">
     <Accordion.Header>How will Yummy Dogs be launched?</Accordion.Header>
     <Accordion.Body>
-      Join our Telegram or follow us on Twitter for updates. All Yummy Dog minting will be done at http://nft.yummy-crypto.com/
+      Join our Telegram or follow us on Twitter for updates. All Yummy Dog minting will be done at TBA.
     </Accordion.Body>
   </Accordion.Item>
 
@@ -35,7 +35,7 @@ function AccordionFN() {
   <Accordion.Item eventKey="3">
     <Accordion.Header>How much does each Yummy Dog cost?</Accordion.Header>
     <Accordion.Body>
-      0.2 BNB
+      0.2 BNB.
     </Accordion.Body>
   </Accordion.Item>
   
