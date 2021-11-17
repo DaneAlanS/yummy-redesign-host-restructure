@@ -61,14 +61,14 @@ function HomePage() {
             <h5>Total of our (blockchain verified) donations to Binance Lunch For Children</h5>
           </div>
           <div className="milestone" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000">
-            <h3>$1,150,000</h3>
+            <h3>$1,600,000</h3>
             <h3 className="milestone-title">GROWTH FUND</h3>
             <h5>The Growth Fund is a vital part of the V2 Ecosystem that burns Yummy daily.</h5>
           </div>
           <div className="milestone" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000">
-            <h3>75,000+</h3>
-            <h3 className="milestone-title">HOLDERS </h3>
-            <h5>75,000 holders who have decided to join us in our mission to make the World a better place.</h5>
+            <h3>$3,000</h3>
+            <h3 className="milestone-title">DAILY REWARDS</h3>
+            <h5>The Growth Fund buys and burns 3-4 Billion Yummy weeky.</h5>
           </div>       
         </div> 
       </div>
