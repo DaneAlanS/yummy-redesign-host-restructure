@@ -45,7 +45,7 @@ function Navigation() {
                     <Nav.Link href="https://t.me/yummycoin" target="_blank" rel="noreferrer noopener"><i className="fab fa-telegram"></i></Nav.Link>
                     <Nav.Link href="https://www.reddit.com/r/yummycoin/" target="_blank" rel="noreferrer noopener"><i className="fab fa-reddit"></i></Nav.Link>
                     <Nav.Link href="https://www.facebook.com/OfficialYummyCoin" target="_blank" rel="noreferrer noopener"><i className="fab fa-facebook"></i></Nav.Link>
-                    <Nav.Link href="https://www.instagram.com/yummycharity/" target="_blank" rel="noreferrer noopener"><i className="fab fa-instagram"></i></Nav.Link>
+                    <Nav.Link href="https://www.instagram.com/yummycryptoofficial/" target="_blank" rel="noreferrer noopener"><i className="fab fa-instagram"></i></Nav.Link>
                     <Nav.Link href="https://www.youtube.com/c/YummyProjectOfficial/" target="_blank" rel="noreferrer noopener"><i className="fab fa-youtube"></i></Nav.Link>
                 </div>
             </Nav>

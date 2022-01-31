@@ -18,6 +18,8 @@ import Soku from '../assets/partners/soku.png';
 import DreamField from '../assets/partners/dreamfield_logo.png';
 import Slam from '../assets/partners/slam.png'
 import PCS from '../assets/partners/pancakeswap.png';
+import Ore from '../assets/partners/Orelogo.svg';
+import Anji from '../assets/partners/anji.jpg';
 
 function Partners() {
 
@@ -26,37 +28,31 @@ function Partners() {
     <div className="partner-grid-wrapper">
           <span>Check Out Our Partners!</span>
           <div className="partner-grid">
-            <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://www.bareknuckle.tv/" data-aos="fade-up"  data-aos-delay="500" data-aos-duration="1000">
-              <img alt="BKFC"src={BKFCLogo}></img>
+            <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://www.bitmart.com/en" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+              <img alt="Bitmart Exchange"src={BitmartLogo}></img>
+            </a>            
+            <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://pancakeswap.finance/swap" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+              <img alt="Pancake Swap"src={PCS}></img>
+            </a>
+            <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://www.anji.eco/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
+              <img alt="Anji Eco"src={Anji}></img>
             </a>
             <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://www.sokuswap.org/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
               <img alt="Soku Swap"src={Soku}></img>
             </a>
-            <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://pancakeswap.finance/swap" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-              <img alt="Pancake Swap"src={PCS}></img>
+            <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://slamtoken.com/" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+              <img alt="Slam Token"src={Slam}></img>
+            </a> 
+            <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://www.ore-system.com/" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+              <img alt="Ore System"src={Ore}></img>
+            </a> 
+            <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://www.bareknuckle.tv/" data-aos="fade-up"  data-aos-delay="500" data-aos-duration="1000">
+              <img alt="BKFC"src={BKFCLogo}></img>
             </a>
             <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://www.dreamfield.co/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000"> 
               <img alt="DreamField"src={DreamField}></img>
-            </a>
-            <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://slamtoken.com/" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-              <img alt="Slam Token"src={Slam}></img>
-            </a>            
-            <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://www.bitmart.com/en" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-              <img alt="Bitmart Exchange"src={BitmartLogo}></img>
-            </a>
-            <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://www.binance.charity/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
-              <img alt="Binance Charity"src={Bcharity}></img>
-            </a>
-            <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://marinadalglishappeal.org/" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-              <img alt="MDAppeal"src={MDAppeal}></img>
-            </a>
-            <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://oursorai.com/" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-              <img alt="Sorai"src={Sorai}></img>
-            </a>
-            <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://21foundation.com/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
-              <img alt="21 foundation"src={Foundation}></img>
-            </a>            
-            <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://spacegang.club/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
+            </a>               
+             <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://spacegang.club/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
               <img alt="SpaceGang"src={SpaceGang}></img>
             </a>            
             <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://coinhunt.cc/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
@@ -70,7 +66,20 @@ function Partners() {
             </a>
             <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://bscscan.com/" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
               <img alt="BSCscan"src={BSCscan}></img>
+            </a>                    
+            <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://www.binance.charity/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
+              <img alt="Binance Charity"src={Bcharity}></img>
             </a>
+            <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://marinadalglishappeal.org/" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+              <img alt="MDAppeal"src={MDAppeal}></img>
+            </a>
+            <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://oursorai.com/" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+              <img alt="Sorai"src={Sorai}></img>
+            </a>
+            <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://21foundation.com/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
+              <img alt="21 foundation"src={Foundation}></img>
+            </a>            
+           
                                     
           </div>
     </div>

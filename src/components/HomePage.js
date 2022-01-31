@@ -20,30 +20,17 @@ function HomePage() {
   return (
     <div className="home-page-wrapper">
       <div className="landing-wrapper">
-        <h1 className="fluid-type">Together We're <span style={{color:"#F47E14"}}>Changing Lives</span> Across The Globe.</h1>
-        <h3>Yummy Crypto is a project launched on May 1st with a clear vision to deliver value to holders via <span style={{color:"#F47E14"}}>Growth Fund</span> while providing contributions to help solve some of the world's most pressing issues.</h3>
-         <Button className="nft-button" href="/NFT">NEW Yummy NFTs!</Button>
+        <h1 className="fluid-type">Together, We're <span style={{color:"#F47E14"}}>Changing Lives</span> Across The Globe.</h1>
+        <h3 className="yummy-desc">Yummy Crypto is a project launched on May 1st with a clear vision to deliver value to holders via <span style={{color:"#F47E14"}}>Growth Fund</span> while providing contributions to help solve some of the world's most pressing issues.</h3>
         <div className="video-wrapper">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/suY1heK1MA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <div className="contract-address">Contract Address: <span>0xB003C68917BaB76812797d1b8056822f48E2e4fe</span></div>
+          <iframe width="850" height="487" src="https://www.youtube.com/embed/ekfwTjTuI4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div className="contract-address">Contract Address: <span>0xB003C68917BaB76812797d1b8056822f48E2e4fe</span></div>          
         </div>
-        <div className="landing-buttons-wrapper">
-          <div className="buy-button-wrapper">
-            <div className="landing-button-grid">          
-              <Button href="https://www.bitmart.com/trade/en?symbol=YUMMY_USDT" target="_blank" rel="noreferrer noopener">Buy On Bitmart</Button>
-              <Button href="https://pancakeswap.finance/swap?outputCurrency=0xb003c68917bab76812797d1b8056822f48e2e4fe" target="_blank" rel="noreferrer noopener" >Buy On Pancakeswap</Button>
-              <Button href="https://app.sokuswap.finance/bsc/#/swap?inputCurrency=0xB8c77482e45F1F44dE1745F52C74426C631bDD52?&outputCurrency=0xB003C68917BaB76812797d1b8056822f48E2e4fe"  target="_blank" rel="noreferrer noopener">Buy On Soku</Button>
-              <Button className="price-graph"href="https://poocoin.app/tokens/0xb003c68917bab76812797d1b8056822f48e2e4fe"  target="_blank" rel="noreferrer noopener">View Price Graph</Button>
-            </div>
-          </div>
-          <div className="buy-button-wrapper">            
-            <div className="landing-button-grid">          
-              <Button href="/howtobuy">How To Buy Yummy</Button>
-              <Button href="https://apeboard.finance/dashboard/0x50573352064DfC51abee7Bccb6113642abe80908?chain=BSC"  target="_blank" rel="noreferrer noopener">Check Growth Fund Balance</Button>
-              <Button href="https://www.binance.charity/binance-lunch-for-children"  target="_blank" rel="noreferrer noopener">Check Donation Records</Button>     
-              <Button href="https://yummyupgrade.com/" target="_blank" rel="noreferrer noopener">Upgrade From Yummy V1 To V2</Button>
-            </div>
-          </div>
+        <div className="home-button-wrapper">
+          <Button href="https://apeboard.finance/dashboard/0x50573352064DfC51abee7Bccb6113642abe80908?chain=BSC" target="_blank" rel="noreferrer noopener">Check Out Our Growth Fund!</Button>
+          <Button href="https://www.binance.charity/project/old/binance-lunch-for-children" target="_blank" rel="noreferrer noopener">Check Our Donation Records!</Button>
+          <Button href="/howtobuy">Need Help Buying Yummy?</Button>
+          <Button  href="https://poocoin.app/tokens/0xb003c68917bab76812797d1b8056822f48e2e4fe" target="_blank" rel="noreferrer noopener">View The Price Graph!</Button>
         </div>
       </div>
 
@@ -51,7 +38,7 @@ function HomePage() {
       <div className="divider">
         <Image className="transparent-logo"src={TransparentLogo}></Image>
         <div className="divider-text-wrapper" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
-          <h3>Within our short history, we've already donated over $1.1M, and 35% of the total token supply has been burned as a method to return value to our holders. And that's just the start of it!</h3>
+          <h3>Within our short history, we've already donated over $1.1M, and 55% of the total token supply has been burned as a method to return value to our holders. And that's just the start of it!</h3>
           <h3>We recently introduced our <span style={{color:"#93295B"}}>Growth Fund</span> to further maximize Yummy holders' returns through daily buybacks and burns. In addition, we have secured partnerships with prominent industry players such as Bare Knuckle FC to further advance our social exposure within the crypto space and have much more in the works!</h3>
         </div>
         <div className="milestones-wrapper" >
@@ -68,7 +55,7 @@ function HomePage() {
           <div className="milestone" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000">
             <h3>$3,000</h3>
             <h3 className="milestone-title">DAILY REWARDS</h3>
-            <h5>The Growth Fund buys and burns 3-4 Billion Yummy weeky.</h5>
+            <h5>The Growth Fund buys and burns 3-4 Billion Yummy weekly.</h5>
           </div>       
         </div> 
       </div>
