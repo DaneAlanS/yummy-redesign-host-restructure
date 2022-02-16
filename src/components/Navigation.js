@@ -9,6 +9,7 @@ import Logo from '../assets/yummy-full-logo.svg';
 import PCS from '../assets/partners/pancakeswap.png';
 import Soku from '../assets/partners/soku.png';
 import Bitmart from '../assets/partners/bitmart.png';
+import Anji from '../assets/partners/anji.jpg';
 
 
 function Navigation() {
@@ -34,6 +35,7 @@ function Navigation() {
                   <span>Swap:</span>
                   <NavDropdown.Item href="https://pancakeswap.finance/swap?outputCurrency=0xb003c68917bab76812797d1b8056822f48e2e4fe" target="_blank" rel="noreferrer noopener"><Image src={PCS} className="nav-partner-logo"/>Pancakeswap</NavDropdown.Item>
                   <NavDropdown.Item href="https://app.sokuswap.finance/bsc/#/swap?inputCurrency=0xB8c77482e45F1F44dE1745F52C74426C631bDD52?&outputCurrency=0xB003C68917BaB76812797d1b8056822f48E2e4fe"  target="_blank" rel="noreferrer noopener"><Image src={Soku} className="nav-partner-logo"/>Sokuswap</NavDropdown.Item>
+                  <NavDropdown.Item href="https://app.anji.eco/swap?token=YUMMY"  target="_blank" rel="noreferrer noopener"><Image src={Anji} className="nav-partner-logo"/>AnjiEco</NavDropdown.Item>
                 </div>
                 </NavDropdown>
 

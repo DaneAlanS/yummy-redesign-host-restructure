@@ -5,7 +5,6 @@ const API_URL ="https://api.bscscan.com/api?module=account&action=tokenbalance&c
 
 function Circulation() {
   return (
-    <div>
       <Get url={API_URL}>
         {(error, response, isLoading, makeRequest, axios) => {
           if(error) {
@@ -15,12 +14,11 @@ function Circulation() {
             return (<div>Loading...</div>)
           }
           else if(response !== null) {
-            return (<div style={{fontSize:"100px"}}>{1000000000000-(response.data.result/1000000000)}</div>)
+            return (<div>{1000000000000-(response.data.result/1000000000)}</div>)
           }
           return (<div>Default message before request is made.</div>)
         }}
       </Get>
-    </div>
   );
 }
 
