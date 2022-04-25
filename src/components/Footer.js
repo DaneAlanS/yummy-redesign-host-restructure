@@ -27,7 +27,7 @@ function Footer() {
 
                 <div className="socials-footer">
                   {/* <a href="https://twitter.com/YummyCrypto" target="_blank" rel="noreferrer noopener"><i class="fab fa-twitter-square"></i></a> */}
-                  <a href="https://t.me/yummyfinance" target="_blank" rel="noreferrer noopener"><img className="Medium-Image footer" src={Medium}></img></a>
+                  <a href="https://medium.com/@YummyCrypto" target="_blank" rel="noreferrer noopener"><img className="Medium-Image footer" src={Medium}></img></a>
                   <a href="https://t.me/yummyfinance" target="_blank" rel="noreferrer noopener"><i class="fab fa-telegram-plane"></i></a>
                   <a href="https://www.reddit.com/r/yummycoin/" target="_blank" rel="noreferrer noopener"><i class="fab fa-reddit-square"></i></a>
                   <a href="https://www.facebook.com/OfficialYummyCoin" target="_blank" rel="noreferrer noopener"><i class="fab fa-facebook-square"></i></a>
