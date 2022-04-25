@@ -36,6 +36,7 @@
 .nav-socials {
     display: flex;
     font-size: 15px;
+    align-items: center;
 }
 
 .navbar-toggler,
@@ -98,4 +99,10 @@ a,
             background-color: rgba(0, 0, 0, 0.4) !important;
         }
     }
+}
+
+.Medium-Image{
+    width:45px;
+    height:45px;
+    padding:0.5rem;
 }

@@ -47,6 +47,10 @@
 
     }
 
+    .home-top-button {
+        grid-area: 1 / 1 / 1 / 3 !important;
+    }
+
     .video-wrapper {
         grid-area: 2/ 2 / 5 / 2;
         padding: 20px;

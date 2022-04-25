@@ -10,6 +10,7 @@ import PCS from '../assets/partners/pancakeswap.png';
 import Soku from '../assets/partners/soku.png';
 import Bitmart from '../assets/partners/bitmart.png';
 import Anji from '../assets/partners/anji.jpg';
+import Medium from '../assets/medium.png';
 
 
 function Navigation() {
@@ -43,8 +44,9 @@ function Navigation() {
                 <Nav.Link href="https://yummycryptomerch.com/" target="_blank" rel="noreferrer noopener">Merchandise</Nav.Link>              
 
                 <div className='nav-socials'>
-                  <Nav.Link href="https://twitter.com/YummyCrypto" target="_blank" rel="noreferrer noopener"><i className="fab fa-twitter"></i></Nav.Link>
-                    <Nav.Link href="https://t.me/yummycoin" target="_blank" rel="noreferrer noopener"><i className="fab fa-telegram"></i></Nav.Link>
+                  {/* <Nav.Link href="https://twitter.com/YummyCrypto" target="_blank" rel="noreferrer noopener"><i className="fab fa-twitter"></i></Nav.Link> */}
+                  <Nav.Link href="https://medium.com/@YummyCrypto" target="_blank" rel="noreferrer noopener"><Image className="Medium-Image"src={Medium}></Image></Nav.Link>
+                    <Nav.Link href="https://t.me/yummyfinance" target="_blank" rel="noreferrer noopener"><i className="fab fa-telegram"></i></Nav.Link>
                     <Nav.Link href="https://www.reddit.com/r/yummycoin/" target="_blank" rel="noreferrer noopener"><i className="fab fa-reddit"></i></Nav.Link>
                     <Nav.Link href="https://www.facebook.com/OfficialYummyCoin" target="_blank" rel="noreferrer noopener"><i className="fab fa-facebook"></i></Nav.Link>
                     <Nav.Link href="https://www.instagram.com/yummycryptoofficial/" target="_blank" rel="noreferrer noopener"><i className="fab fa-instagram"></i></Nav.Link>

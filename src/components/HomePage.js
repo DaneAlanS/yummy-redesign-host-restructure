@@ -20,17 +20,18 @@ function HomePage() {
   return (
     <div className="home-page-wrapper">
       <div className="landing-wrapper">
-        <h1 className="fluid-type">Together, We're <span style={{color:"#F47E14"}}>Changing Lives</span> Across The Globe.</h1>
-        <h3 className="yummy-desc">Yummy Crypto is a project launched on May 1st with a clear vision to deliver value to holders via <span style={{color:"#F47E14"}}>Growth Fund</span> while providing contributions to help solve some of the world's most pressing issues.</h3>
+        <h1 className="fluid-type">Delivering <span style={{color:"#F47E14"}}>Value</span> Through <span style={{color:"#F47E14"}}>Algorithms.</span></h1>
+        <h3 className="yummy-desc">Yummy Crypto is a project that launched with a clear vision to deliver value to holders via <span style={{color:"#F47E14"}}>Growth Fund</span> while providing contributions to help solve some of the world's most pressing issues.</h3>
         <div className="video-wrapper">
           <iframe width="850" height="487" src="https://www.youtube.com/embed/ekfwTjTuI4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <div className="contract-address">Contract Address: <span>0xB003C68917BaB76812797d1b8056822f48E2e4fe</span></div>          
         </div>
         <div className="home-button-wrapper">
+          <Button className="home-top-button"href="https://www.staking.yummy-crypto.com/" target="_blank" rel="noreferrer noopener">Stake Your Yummy!</Button>
           <Button href="https://apeboard.finance/dashboard/0x50573352064DfC51abee7Bccb6113642abe80908?chain=BSC" target="_blank" rel="noreferrer noopener">Check Out Our Growth Fund!</Button>
           <Button href="https://www.binance.charity/project/old/binance-lunch-for-children" target="_blank" rel="noreferrer noopener">Check Our Donation Records!</Button>
           <Button href="/howtobuy">Need Help Buying Yummy?</Button>
-          <Button  href="https://poocoin.app/tokens/0xb003c68917bab76812797d1b8056822f48e2e4fe" target="_blank" rel="noreferrer noopener">View The Price Graph!</Button>
+          <Button  href="https://www.dextools.io/app/bsc/pair-explorer/0x09ae75e7884f347103dc0f586331611da8b7b824" target="_blank" rel="noreferrer noopener">View The Price Graph!</Button>
         </div>
       </div>
 

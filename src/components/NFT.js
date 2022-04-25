@@ -12,6 +12,7 @@ import BandanaDog from '../assets/nft-images/bandana.png';
 import BusinessDog from '../assets/nft-images/business.png';
 import ContentDog from '../assets/nft-images/content.png';
 import HippoDog from '../assets/nft-images/hippo.png';
+import LootFull from '../assets/TradeLootex-dark.svg';
 
 
 function NFT() {
@@ -26,13 +27,14 @@ function NFT() {
             <li><h4 className="nft-reason">Discounts on Yummy Academy </h4></li>
             <li><h4 className="nft-reason">Yummy Staking Boosts</h4></li>
             <li><h4 className="nft-reason">Tax Free Yummy</h4></li>
-            <li><h4 className="nft-reason">Growth Fund Yield for life</h4></li>
           </ul>   
         </div>
 
            
 
-      <Button className="mint-btn-link" href="https://yummy-crypto-nft.com/" target="_blank" rel="noreferrer noopener">Mint Here!</Button>
+      <a className="mint-btn-link" href="https://lootex.io/stores/yummy-dog-nft" target="_blank" rel="noreferrer noopener">
+        <img alt="LOOTex"src={LootFull}></img>
+      </a>
 
        <Container className="yummy-dog-carousel">
           <Carousel>

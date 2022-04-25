@@ -20,6 +20,7 @@ import Slam from '../assets/partners/slam.png'
 import PCS from '../assets/partners/pancakeswap.png';
 import Ore from '../assets/partners/Orelogo.svg';
 import Anji from '../assets/partners/anji.jpg';
+import LOOTex from '../assets/partners/lootex.svg';
 
 function Partners() {
 
@@ -28,6 +29,9 @@ function Partners() {
     <div className="partner-grid-wrapper">
           <span>Check Out Our Partners!</span>
           <div className="partner-grid">
+            <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://lootex.io/stores/yummy-dog-nft" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+              <img alt="LOOTex"src={LOOTex}></img>
+            </a>            
             <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://www.bitmart.com/en" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
               <img alt="Bitmart Exchange"src={BitmartLogo}></img>
             </a>            
