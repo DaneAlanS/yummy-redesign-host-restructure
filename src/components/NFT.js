@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Image, Button, Container, Carousel} from 'react-bootstrap';
+import {Image, Container, Carousel} from 'react-bootstrap';
 
 import AccordionFN from './AccordionFN.js';
 
