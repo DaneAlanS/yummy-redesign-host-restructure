@@ -43,7 +43,7 @@ function Navigation() {
 
                 <div className='nav-socials'>
                   {/* <Nav.Link href="https://twitter.com/YummyCrypto" target="_blank" rel="noreferrer noopener"><i className="fab fa-twitter"></i></Nav.Link> */}
-                  <Nav.Link href="https://discord.gg/P4jzFw7juu" target="_blank" rel="noreferrer noopener"><i class="fab fa-discord"></i></Nav.Link>
+                  <Nav.Link href="https://discord.gg/NEdEp5455r" target="_blank" rel="noreferrer noopener"><i class="fab fa-discord"></i></Nav.Link>
                   <Nav.Link href="https://medium.com/@YummyCrypto" target="_blank" rel="noreferrer noopener"><i class="fab fa-medium"></i></Nav.Link>
                     <Nav.Link href="https://t.me/yummyfinance" target="_blank" rel="noreferrer noopener"><i className="fab fa-telegram"></i></Nav.Link>
                     <Nav.Link href="https://www.reddit.com/r/yummycoin/" target="_blank" rel="noreferrer noopener"><i className="fab fa-reddit"></i></Nav.Link>

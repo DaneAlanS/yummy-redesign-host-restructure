@@ -11,6 +11,7 @@ import Footer from './Footer.js';
 import WhitePaper from './WhitePaper.js';
 import HowToBuy from './HowToBuy.js';
 import NFT from './NFT.js';
+import Blog from './Blog.js';
 
 
 function PageRouter() {
@@ -23,6 +24,7 @@ function PageRouter() {
                 <Route path="/whitepaper" component={WhitePaper}/>                    
                 <Route path="/nft" component={NFT}/>   
                 <Route path="/howtobuy" component={HowToBuy}/>
+                {/* <Route path="/Blog" component={Blog}/> */}
               </Switch>              
       </Router>
       <Footer/>

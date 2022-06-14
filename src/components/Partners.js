@@ -21,6 +21,8 @@ import PCS from '../assets/partners/pancakeswap.png';
 import Ore from '../assets/partners/Orelogo.svg';
 import Anji from '../assets/partners/anji.jpg';
 import LOOTex from '../assets/partners/lootex.svg';
+import FoxLogo from '../assets/partners/FoxLogo.svg';
+import Everrise from '../assets/partners/Rise_y.svg';
 
 function Partners() {
 
@@ -37,6 +39,12 @@ function Partners() {
             </a>            
             <a className="logo-container" target="_blank" rel="noreferrer noopener" href="https://pancakeswap.finance/swap" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
               <img alt="Pancake Swap"src={PCS}></img>
+            </a>
+            <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://www.everrise.com/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
+              <img alt="Everrise"src={Everrise}></img>
+            </a>
+            <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://foxfinance.io/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
+              <img alt="Fox Finance"src={FoxLogo}></img>
             </a>
             <a className="logo-container square" target="_blank" rel="noreferrer noopener" href="https://www.anji.eco/" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
               <img alt="Anji Eco"src={Anji}></img>
